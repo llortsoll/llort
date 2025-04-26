@@ -1,0 +1,126 @@
+/* Genel stil */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Beyaz arka plan */
+    color: black;
+    display: flex;
+    justify-content: flex-start; /* İçeriği üst kısımdan başlayarak hizala */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    padding-top: 30px; /* Sayfanın üst kısmından içerikleri biraz daha aşağıya taşıdık */
+}
+
+/* Üst Menü */
+.top-menu {
+    background-color: #000000; /* Üst menünün arka planı simsiyah */
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.top-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.top-menu a:hover {
+    color: #32CD32; /* Parlak yeşil metin rengi */
+}
+
+/* Resim Alanı (LLORT Token Görseli) */
+.image-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px; /* Üstten daha fazla mesafe */
+}
+
+#llort-logo {
+    width: 700px; /* LLORT token logosunun boyutu büyütüldü */
+    height: auto;
+}
+
+/* Topluluk Bağlantıları (Telegram ve Twitter) */
+.social-media {
+    margin-top: 70px; /* Bu kısmı daha aşağıya çekiyoruz */
+}
+
+.social-icon {
+    width: 50px; /* Sosyal medya logolarının boyutunu büyüttük */
+    height: auto;
+    margin: 0 25px; /* Aralarındaki boşluğu artırdık */
+}
+
+/* Jeton Adresi ve Diğer Alan */
+.address-section {
+    margin-top: 100px; /* Jeton adresi ile diğer içerik arasındaki mesafeyi artırdık */
+    font-size: 50px;
+    color: #333;
+}
+
+/* Jeton hakkında bilgi metni */
+.token-info {
+    margin-top: 90px; /* Metin ile önceki içerik arasındaki mesafeyi artırdık */
+    font-size: 16px;
+    color: black; /* Siyah renk */
+    width: 40%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+/* Animasyon ve Buton */
+.animation-container {
+    margin-top: 90px; /* Animasyonlu resim ile diğer içerik arasındaki mesafeyi artırdık */
+}
+
+.chart-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #000000; /* Buton rengi siyah */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.chart-button:hover {
+    background-color: #32CD32;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.step {
+    margin-bottom: 30px; /* Her adım arasına mesafe ekle */
+}
+
+.step img {
+    width: 100%; /* Resimlerin genişliğini %100 yap */
+    max-width: 600px; /* Maksimum genişlik 600px */
+    height: 10;
+    margin-top: 120px; /* Resimlerin üstünden biraz mesafe ekle */
+}
+
+.step h3 {
+    font-size: 24px;
+    color: #333;
+}
